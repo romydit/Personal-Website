@@ -5,11 +5,9 @@ body, html {
 
 } 
 
-
 body, html {
   height: 100%;
   width: 100%;
-
 } 
 
 .wrapper{
@@ -38,56 +36,130 @@ body, html {
     font-family: Helvetica, sans-serif;
     text-decoration: underline;
     font-weight: 500;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     margin: 0;
-    background-color: rgb(165, 255, 129);  
+    background-color: rgb(72, 255, 0);  
 }
 
-#about{
+#description{
+  font-weight: 500;
+}
+
+.leftmenu{
   color: black;
   font-family: Helvetica, sans-serif;
-  text-decoration: underline;
+  font-weight: 500;
   font-size: 1.1rem;
   margin-left: 8rem;
-  margin-top: 1rem;
+  margin-top:-2rem;
 }
 
-p{
+.rightmenu{
   color: black;
   font-family: Helvetica, sans-serif;
-  margin-left: 8rem;
-  margin-top: -1.5rem;
+  font-weight: 500;
   font-size: 1.1rem;
-
+  margin-left: 30%;
+  margin-top:-15rem;
 }
 
-#projects{
-  color: black;
-  font-family: Helvetica, sans-serif;
-  font-size: 1.1rem;
-  margin-top: 5rem;
-  font-weight: 550;
+#media{
+  font-style: italic;
+  font-weight: 200;
+  font-size: 1rem;
 }
 
-#links{
-  color: black;
-  font-family: Helvetica, sans-serif;
-  text-decoration: underline;
-  font-size: 1.1rem;
-  margin-left: 8rem;
-  margin-top: 0.5rem;
+.cell{
+  display: flexbox;
+}
+
+.cell_game{
+  display: flexbox;
+}
+
+#start{
+  margin-left: 2%;
+}
+
+#info{
+  margin-left: 280px;
+  margin-top: -50%;
+}
+
+#info_game{
+  margin-left: 320px;
+  margin-top: -30.5%;
+}
+
+#playback{
+  margin-left: 1%;
+  margin-top: 10%;
+}
+#playback_game{
+  margin-top: 6%;
+}
+#speed{
+  margin-left: 260px;
+  margin-top: -78%;
+}
+
+#speed_game{
+  margin-left: 680px;
+  margin-top: -40%;
+}
+
+#berry{
+  margin-left: 340px;
+  margin-top: -20%;
+}
+#berry_game{
+  margin-left: 680px;
+  margin-top: -10%;
+}
+
+#done{
+  margin-top:25%;
+  margin-left: 2%;
+}
+
+#done_game{
+  margin-top:-40.5%;
+  margin-left: 420px;
+}
+
+#game{
+  margin-top:-50%;
+}
+
+td{
+  padding-top: 10px;
 }
 
 a{
   color: black;
-  margin-top: 0.5rem;
 }
 
-a.piano{
-  color: rgb(72, 255, 0);
+#projects{
+  font-weight: 550;
+}
+
+.bio_page{
+  color: black;
+  font-family: Helvetica, sans-serif;
+  margin-left: 30rem;
+  margin-top: -14rem;
+  font-size: 1.1rem;
+}
+
+.bio_page th{
+  text-align: left;
 }
 
 a.about{
+  color: rgb(72, 255, 0);
+}
+
+a.piano{
   color: rgb(72, 255, 0);
 }
 
@@ -95,63 +167,56 @@ a.game{
   color: rgb(72, 255, 0);
 }
 
-
-.keyboard{
-  position: absolute;
-  left: 55%;
-  top: 8%;
-  width: 40%;
-  height: auto;
-}
-
-#bio_page h1{
+.piano_table{
   color: black;
   font-family: Helvetica, sans-serif;
   margin-left: 30rem;
-  margin-top: -20rem;
-  font-size: 1.1rem;
-}
-#bio_page a{
-  color: black;
-  font-family: Helvetica, sans-serif;
-  margin-left: 30rem;
-  margin-top: -15rem;
-
+  margin-top: -14rem;
   font-size: 1.1rem;
 }
 
-#bio_page p{
-  color: black;
-  font-family: Helvetica, sans-serif;
-  margin-left: 30rem;
-  margin-top: 0.5rem;
-  font-size: 1.1rem;
-}
-
-table{
-  margin-left: 30rem;
-  margin-top: -40rem;
-}
-
-th{
-  color: black;
-  font-family: Helvetica, sans-serif;
-  margin-left: 30rem;
-  margin-top: 0.5rem;
-  font-size: 1.1rem;
+.piano_table th{
   text-align: left;
   text-decoration: underline;
-  font-weight: 400;
-  ;
+  font-weight: 500;
 }
 
-td{
+.game_table{
   color: black;
   font-family: Helvetica, sans-serif;
-  margin-left: 40rem;
-  margin-top: 0.5rem;
+  margin-left: 30rem;
+  margin-top: -14rem;
   font-size: 1.1rem;
 }
+
+.game_table th{
+  text-align: left;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

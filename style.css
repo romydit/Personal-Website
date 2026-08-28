@@ -1,17 +1,90 @@
 
-body, html {
-  height: 100%;
-  width: 100%;
+*{
+  box-sizing: border-box;
+}
 
-} 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2px;
+}
 
-.wrapper{
-  width: 20%;
-  position: relative;
-  height: 70px;
-  margin-top: 5rem;
-  margin-left: 8rem;
-  overflow: hidden;
+.content{
+  display: flex;
+  flex-direction: column;
+  flex: 45%;
+  max-width: 25%;
+  padding: 0 2px;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  flex: 45%;
+  max-width: 50%;
+  padding: 0 2px;
+}
+
+p{
+  color: black;
+  font-family: Helvetica, sans-serif;
+}
+
+a{
+  font-family: Helvetica, sans-serif;
+}
+
+h{
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+a:link{
+  color: black;
+}
+
+a:active{
+   color: black;
+}
+
+a:visited{
+   color: black;
+}
+
+a:hover{
+  color:rgb(72, 255, 0);
+}
+
+.column{
+    flex: 45%;
+    max-width: 50%;
+    padding: 0 2px;
+}
+
+.column img{
+    margin-top: 4px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.column iframe{
+    margin-top: 4px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column{
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column{
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 .item {
@@ -25,184 +98,6 @@ body, html {
   from{transform: translateX(100%);}
   to{ transform:translateX(-100%);}
 }
-
-#name{
-  color: black;
-  font-family: Helvetica, sans-serif;
-  text-decoration: underline;
-  font-weight: 500;
-  font-size: 1.1rem;
-  margin: 0;
-  background-color: rgb(72, 255, 0);  
-}
-
-#description{
-  font-weight: 500;
-  text-align: left;
-}
-
-.leftmenu{
-  color: black;
-  font-family: Helvetica, sans-serif;
-  font-weight: 500;
-  font-size: 1.1rem;
-  margin-left: 8rem;
-  margin-top:-2rem;
-}
-
-.rightmenu{
-  color: black;
-  font-family: Helvetica, sans-serif;
-  font-weight: 500;
-  font-size: 1.1rem;
-  margin-left: 30%;
-  margin-top:-15rem;
-}
-
-#media{
-  font-style: italic;
-  font-weight: 200;
-  font-size: 1rem;
-}
-
-.cell{
-  display: flexbox;
-}
-
-.cell_game{
-  display: flexbox;
-}
-
-#start{
-  margin-left: 2%;
-}
-
-#info{
-  margin-left: 280px;
-  margin-top: -50%;
-}
-
-#info_game{
-  margin-left: 320px;
-  margin-top: -30.5%;
-}
-
-#playback{
-  margin-left: 1%;
-  margin-top: 10%;
-}
-
-#playback_game{
-  margin-top: 6%;
-}
-#speed{
-  margin-left: 260px;
-  margin-top: -78%;
-}
-
-#speed_game{
-  margin-left: 680px;
-  margin-top: -40%;
-}
-
-#berry{
-  margin-left: 340px;
-  margin-top: -20%;
-}
-#berry_game{
-  margin-left: 680px;
-  margin-top: -10%;
-}
-
-#done{
-  margin-top:25%;
-  margin-left: 2%;
-}
-
-#done_game{
-  margin-top:-40.5%;
-  margin-left: 420px;
-}
-
-#game{
-  margin-top:-50%;
-}
-
-td{
-  padding-top: 10px;
-}
-
-a{
-  color: black;
-}
-
-#projects{
-  font-weight: 550;
-}
-
-.bio_page{
-  color: black;
-  font-family: Helvetica, sans-serif;
-  margin-left: 30rem;
-  margin-top: -14rem;
-  font-size: 1.1rem;
-}
-
-.bio_page th{
-  text-align: left;
-}
-
-a.about{
-  color: rgb(72, 255, 0);
-}
-
-a.piano{
-  color: rgb(72, 255, 0);
-}
-
-a.game{
-  color: rgb(72, 255, 0);
-}
-
-.piano_table{
-  color: black;
-  font-family: Helvetica, sans-serif;
-  margin-left: 30rem;
-  margin-top: -14rem;
-  font-size: 1.1rem;
-}
-
-.piano_table th{
-  text-align: left;
-  text-decoration: underline;
-  font-weight: 500;
-}
-
-.game_table{
-  color: black;
-  font-family: Helvetica, sans-serif;
-  margin-left: 30rem;
-  margin-top: -14rem;
-  font-size: 1.1rem;
-}
-
-.game_table th{
-  text-align: left;
-  text-decoration: underline;
-  font-weight: 500;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

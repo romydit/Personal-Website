@@ -99,6 +99,16 @@ a:hover{
   to{ transform:translateX(-100%);}
 }
 
+#name{
+  color: black;
+    font-family: Helvetica, sans-serif;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 1.1rem;
+    /* margin: 0; */
+    background-color: rgb(72, 255, 0);  
+}
+
 
 
 

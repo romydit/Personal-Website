@@ -87,6 +87,15 @@ a:hover{
   }
 }
 
+.wrapper{
+  width: 20%;
+  position: relative;
+  height: 70px;
+  margin-top: 5rem;
+  margin-left: 8rem;
+  overflow: hidden;
+}
+
 .item {
   white-space: nowrap;
   position: absolute;
